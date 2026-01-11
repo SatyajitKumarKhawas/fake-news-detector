@@ -4,7 +4,7 @@ A modern, glassmorphism-styled Streamlit application for analyzing news authenti
 """
 
 import streamlit as st
-from dotenv import load_dotenv
+
 import os
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
